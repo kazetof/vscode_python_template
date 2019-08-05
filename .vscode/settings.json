@@ -1,0 +1,21 @@
+{
+    "files.exclude": {
+        "**/*.pyc": true,
+        ".nyc_output": true,
+        "obj": true,
+        "bin": true,
+        "**/__pycache__": true,
+        "**/.mypy_cache/**": true,
+    },
+    "python.pythonPath": "${workspaceRoot}/.venv/bin/python",
+    "python.venvPath": ".venv",
+    "python.pipenvPath": "/usr/local/bin/pipenv",
+    "python.linting.pylintEnabled": true,
+    "python.linting.mypyEnabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.pep8Enabled": true,
+    "python.linting.pep8Args": ["--ignore=E501"],
+    "python.linting.flake8Args": [
+        "--max-line-length=120"
+    ]
+}
