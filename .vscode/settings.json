@@ -7,6 +7,11 @@
         "**/__pycache__": true,
         "**/.mypy_cache/**": true,
     },
+    "[python]": {
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": true,
+        "editor.tabSize": 4
+    },
     "python.pythonPath": "${workspaceRoot}/.venv/bin/python",
     "python.venvPath": ".venv",
     "python.pipenvPath": "/usr/local/bin/pipenv",
